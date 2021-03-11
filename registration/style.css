@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: url(/img/space.JPG);
+}
+
+.header {
+  width: 30%;
+  margin: 50px 0 0px 728px;
+  color: white;
+  background: #a01515;
+  text-align: center;
+  border: 1px solid #040404;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px 0 0px 728px;
+  padding: 20px;
+  border: 1px solid #000000;
+  background: #e8e8ee;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #a01515;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.link_logout{
+  padding: 25px;
+}
+
+.Logo{margin: 0px -110px 29px -249px;
+	  border-radius: 30px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+      height: 80px;}
+
+.Logo img {border-radius: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-style: inset;
+    border-color: #c73c4f;
+    }
+
+.container{max-width: 1200px;
+	       max-height: 81px;
+           max-width: 100%;
+           margin: 0 auto;}
+
+header .container{
+	margin: 0 73px -19px;
+	display: flex;
+    justify-content: space-between;
+    background: url(../img/header2.jpg );
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    align-items: center;
+    max-width: 1200px 100%;
+    min-width: 1200px;}
+
+header .Call_button{margin: 15px 150px;}
+
+header nav {margin: 0}
+
+nav li{ display: inline;
+        margin: 0 10px;
+        color: #ffd2d0;
+        font-size: 16px;
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;}
+
+nav li a{color: inherit;
+         text-decoration: unset;}
+
+nav ul{margin: 0 30px ;}
